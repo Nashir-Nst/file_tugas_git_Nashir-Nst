@@ -1,0 +1,101 @@
+* {
+  /* universal */
+  font-family: cambria, calibri, consolas;
+}
+
+body {
+  background-color: #f5eaea;
+}
+
+/* --------------Format Text------ */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: justify;
+  text-indent: 0.5cm;
+  padding: 2px;
+  color: black;
+  line-height: 0.5cm;
+  word-spacing: 5px;
+  font-size: 13pt;
+}
+
+/* groupping */
+fieldset {
+  border: black 1px outset;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f5eaea;
+  color: black;
+}
+
+/*----------clas------------------ */
+.footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.bgmenu {
+  background-color: gray;
+}
+
+.iklan {
+  background-image: url("img/iklan.jpg");
+}
+
+.header {
+  background-image: url("img/bgg.jpg");
+}
+
+/* id */
+#menu {
+  text-align: center;
+}
+
+/*-----------pseudo class------------- */
+#menu a:link,
+a:visited {
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 5px;
+}
+#menu a:hover {
+  text-decoration: none;
+  padding: 5px;
+  background-color: gray;
+}
+#menu a:active {
+  text-decoration: none;
+  padding: 25px;
+  background-color: black;
+  margin: 0px 5px;
+}
+
+#sidebar a:hover {
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+#club a:hover {
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+/* ---pseudo element--- */
+p.p:first-line {
+  font-family: consolas, calibri, cambria;
+  color: blue;
+  font-style: italic;
+}
+
+.study {
+  list-style-image: url("img/study.PNG");
+}
+
+
